@@ -1,0 +1,24 @@
+<svg width="415" height="130" viewBox="0 0 415 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .font-mono { font-family: 'Fira Code', monospace; }
+  </style>
+  <rect width="415" height="130" rx="12" fill="#060c09" stroke="#22c55e" stroke-width="1.2"/>
+  
+  <g transform="translate(20, 28)">
+    <text x="0" y="0" font-size="14">📦</text>
+    <text x="24" y="0" fill="#4ade80" font-size="15" font-weight="700" class="font-sans">deploymentmethod</text>
+    <rect x="315" y="-14" width="55" height="20" rx="10" fill="#052e16" stroke="#22c55e" stroke-width="0.8"/>
+    <text x="342" y="0" fill="#86efac" font-size="10" font-weight="600" text-anchor="middle" class="font-mono">Public</text>
+  </g>
+
+  <text x="20" y="60" fill="#94a3b8" font-size="12" class="font-sans">Automated production deployment, Docker scripts &amp; VPS infrastructure setup.</text>
+
+  <g transform="translate(20, 100)">
+    <circle cx="5" cy="5" r="4" fill="#22c55e"/>
+    <text x="16" y="9" fill="#86efac" font-size="11" class="font-mono">Docker / Shell</text>
+
+    <text x="140" y="9" fill="#f8fafc" font-size="11" class="font-mono">★ 1</text>
+    <text x="190" y="9" fill="#f8fafc" font-size="11" class="font-mono">⌥ 0</text>
+  </g>
+</svg>

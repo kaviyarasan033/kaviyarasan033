@@ -1,0 +1,42 @@
+<svg width="415" height="195" viewBox="0 0 415 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="streakBg" x1="0" y1="0" x2="415" y2="195" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060c09"/>
+      <stop offset="100%" stop-color="#14080a"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .font-mono { font-family: 'Fira Code', monospace; }
+  </style>
+
+  <rect width="415" height="195" rx="12" fill="url(#streakBg)" stroke="#ef4444" stroke-width="1.2"/>
+
+  <!-- Center Circle Streak Icon -->
+  <g transform="translate(207, 45)">
+    <circle cx="0" cy="0" r="24" fill="#450a0a" stroke="#ef4444" stroke-width="2"/>
+    <text x="0" y="7" font-size="18" text-anchor="middle">🔥</text>
+  </g>
+
+  <!-- 3 Streak Columns -->
+  <!-- Col 1: Total Contributions -->
+  <g transform="translate(75, 115)">
+    <text x="0" y="0" fill="#f8fafc" font-size="22" font-weight="800" text-anchor="middle" class="font-sans">459</text>
+    <text x="0" y="18" fill="#f87171" font-size="11" font-weight="600" text-anchor="middle" class="font-mono">Total Commits</text>
+    <text x="0" y="32" fill="#64748b" font-size="9" text-anchor="middle" class="font-mono">2026 Cycle</text>
+  </g>
+
+  <!-- Col 2: Current Streak (Center) -->
+  <g transform="translate(207, 115)">
+    <text x="0" y="0" fill="#22c55e" font-size="24" font-weight="900" text-anchor="middle" class="font-sans">ACTIVE</text>
+    <text x="0" y="18" fill="#4ade80" font-size="11" font-weight="700" text-anchor="middle" class="font-mono">Current Streak</text>
+    <text x="0" y="32" fill="#86efac" font-size="9" text-anchor="middle" class="font-mono">Consistent Dev</text>
+  </g>
+
+  <!-- Col 3: Longest Streak -->
+  <g transform="translate(340, 115)">
+    <text x="0" y="0" fill="#f8fafc" font-size="22" font-weight="800" text-anchor="middle" class="font-sans">99.4%</text>
+    <text x="0" y="18" fill="#f87171" font-size="11" font-weight="600" text-anchor="middle" class="font-mono">Consistency</text>
+    <text x="0" y="32" fill="#64748b" font-size="9" text-anchor="middle" class="font-mono">Peak Record</text>
+  </g>
+</svg>

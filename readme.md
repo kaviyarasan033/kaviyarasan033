@@ -50,17 +50,17 @@
 
 <br/><br/>
 
-  <!-- Dynamic Pinned Repositories -->
+  <!-- Pinned Production Repositories -->
   <table border="0" align="center">
     <tr align="center">
       <td>
         <a href="https://github.com/kaviyarasan033/deploymentmethod" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=kaviyarasan033&repo=deploymentmethod&theme=tokyonight&bg_color=060c09&border_color=22c55e&title_color=4ade80&icon_color=ef4444&text_color=f8fafc" alt="deploymentmethod" />
+          <img src="assets/repo-deploymentmethod.svg" width="415" alt="deploymentmethod" />
         </a>
       </td>
       <td>
         <a href="https://github.com/kaviyarasan033/kaviyarasan033" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=kaviyarasan033&repo=kaviyarasan033&theme=tokyonight&bg_color=060c09&border_color=ef4444&title_color=f87171&icon_color=22c55e&text_color=f8fafc" alt="kaviyarasan033" />
+          <img src="assets/repo-kaviyarasan033.svg" width="415" alt="kaviyarasan033" />
         </a>
       </td>
     </tr>
@@ -97,17 +97,17 @@
 
 <div align="center">
 
-  <!-- Live Dynamic GitHub Readme Stats & Streak (Includes All Commits, Private Repos & Collaborations) -->
+  <!-- Live GitHub Readme Stats & Streak Cards -->
   <table border="0" align="center">
     <tr align="center">
       <td>
         <a href="https://github.com/kaviyarasan033" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api?username=kaviyarasan033&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=060c09&border_color=22c55e&title_color=4ade80&icon_color=ef4444&text_color=f8fafc&hide_border=false" alt="Kaviyarasan's GitHub Stats" />
+          <img src="assets/github-stats.svg" width="415" alt="Kaviyarasan's GitHub Stats" />
         </a>
       </td>
       <td>
         <a href="https://github.com/kaviyarasan033" target="_blank">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaviyarasan033&theme=tokyonight&background=060c09&border=ef4444&ring=22c55e&fire=ef4444&currStreakNum=22c55e&sideNums=f87171&dates=86efac&hide_border=false" alt="GitHub Streak" />
+          <img src="assets/github-streak.svg" width="415" alt="GitHub Streak" />
         </a>
       </td>
     </tr>
@@ -117,7 +117,7 @@
 
   <!-- Top Languages Card -->
   <a href="https://github.com/kaviyarasan033" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaviyarasan033&layout=compact&theme=tokyonight&bg_color=060c09&border_color=22c55e&title_color=4ade80&text_color=f8fafc&hide_border=false" alt="Top Languages" />
+    <img src="assets/top-languages.svg" width="100%" alt="Top Languages" />
   </a>
 
 <br/><br/>
@@ -133,11 +133,9 @@
 
 <div align="center">
   <!-- Dynamic GitHub Snake Eating Contribution Grid -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaviyarasan033/kaviyarasan033/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaviyarasan033/kaviyarasan033/output/github-contribution-grid-snake.svg" />
+  <a href="https://github.com/kaviyarasan033" target="_blank">
     <img src="assets/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Snake Animation" />
-  </picture>
+  </a>
 </div>
 
 ---
