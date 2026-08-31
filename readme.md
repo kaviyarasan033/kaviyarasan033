@@ -7,7 +7,7 @@
 
 <br/><br/>
 
-  <!-- ⚡ Native Vector Bash / CI/CD Typing Subtitle -->
+  <!-- ⚡ Native Vector Bash / CI/CD & AI LLM Typing Subtitle -->
   <img src="assets/typing.svg" width="100%" alt="Typing Subtitle" />
 
 </div>
@@ -23,17 +23,17 @@
 
 ---
 
-### 🛠️ DevOps, Infrastructure & Backend Tooling
+### 🛠️ Fullstack, AI LLM, Cloud & DevOps Matrix
 
 <div align="center">
-  <!-- Native Vector SVG Skills & Integrations Matrix -->
+  <!-- Native Vector SVG Skills & Comprehensive Integrations Matrix -->
   <img src="assets/skills.svg" width="100%" alt="Skills & Integrations Matrix" />
 
-  <br/>
+  <br/><br/>
 
-  <!-- Modern Icon Bar -->
+  <!-- Modern Icon Bar (All Tools & Stacks) -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=jenkins,docker,ubuntu,linux,mysql,git,github,laravel,php,react,js,bootstrap,vscode,bash&perline=7&theme=dark" alt="Tool Icons" />
+    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,nodejs,express,mongodb,postgres,python,fastapi,docker,kubernetes,aws,nginx,cloudflare,jenkins,ubuntu,linux,laravel,php,mysql,git,github,vscode,postman,bash&perline=13&theme=dark" alt="Tool Icons" />
   </a>
 </div>
 
@@ -43,14 +43,14 @@
 
 <div align="center">
 
-  <!-- Clickable Native Vector Repositories Matrix -->
+  <!-- Clickable Native Vector Repositories Matrix with Animated Marquee Terminal -->
   <a href="https://github.com/kaviyarasan033?tab=repositories" target="_blank">
     <img src="assets/featured-repos.svg" width="100%" alt="Featured Repositories" />
   </a>
 
 <br/><br/>
 
-  <!-- Pinned Production Repositories -->
+  <!-- Pinned Production Repositories (Native Animated Cards) -->
   <table border="0" align="center">
     <tr align="center">
       <td>
@@ -145,7 +145,7 @@
 <div align="center">
 
   <!-- Clickable Native Vector Contact Form Card (Opens Gmail Web Directly) -->
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mkaviyarasan003@gmail.com&su=Project%20Inquiry%20%7C%20Full%20Stack%20Development&body=Hi%20Kaviyarasan,%0A%0AI%20am%20interested%20in%20collaborating%20with%20you%20on%20a%20project:%0A%0A-%20Project%20Type:%20(e.g.%20Web%20App%20/%20API%20/%20VPS%20Hosting%20/%20CI/CD)%0A-%20Technologies:%20(PHP/Laravel,%20Docker,%20MySQL,%20Ubuntu%20VPS)%0A-%20Timeline%20&%20Scope:%20%0A%0ABest%20regards," target="_blank">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mkaviyarasan003@gmail.com&su=Project%20Inquiry%20%7C%20Full%20Stack%20Development&body=Hi%20Kaviyarasan,%0A%0AI%20am%20interested%20in%20collaborating%20with%20you%20on%20a%20project:%0A%0A-%20Project%20Type:%20(e.g.%20Next.js%20/%20AI%20LLM%20/%20Kubernetes%20/%20VPS%20Hosting%20/%20MERN%20/%20Laravel)%0A-%20Technologies:%20(Python,%20PostgreSQL,%20AWS%20S3,%20Docker,%20Nginx,%20Cloudflare)%0A-%20Timeline%20&%20Scope:%20%0A%0ABest%20regards," target="_blank">
     <img src="assets/contact.svg" width="100%" alt="Contact Form Card - Click to Send Mail" />
   </a>
 

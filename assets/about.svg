@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="850" height="400" viewBox="0 0 850 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="440" viewBox="0 0 850 440" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="cardBg" x1="0" y1="0" x2="850" y2="400" gradientUnits="userSpaceOnUse">
+    <linearGradient id="cardBg" x1="0" y1="0" x2="850" y2="440" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#070c09"/>
       <stop offset="100%" stop-color="#0e1712"/>
     </linearGradient>
-    <linearGradient id="aboutBorder" x1="0" y1="0" x2="850" y2="400" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.7"/>
+    <linearGradient id="aboutBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e">
+        <animate attributeName="stop-color" values="#22c55e;#ef4444;#22c55e" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ef4444">
+        <animate attributeName="stop-color" values="#ef4444;#22c55e;#ef4444" dur="6s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
   </defs>
 
@@ -17,82 +20,94 @@
     .val { fill: #4ade80; }
     .str { fill: #86efac; }
     .pun { fill: #94a3b8; }
-    .cmd { fill: #f8fafc; font-weight: 600; }
   </style>
 
-  <!-- Terminal Window Frame -->
-  <rect x="1" y="1" width="848" height="398" rx="14" fill="url(#cardBg)"/>
-  <rect x="1" y="1" width="848" height="398" rx="14" stroke="url(#aboutBorder)" stroke-width="1.5"/>
+  <!-- Terminal Frame -->
+  <rect x="1" y="1" width="848" height="438" rx="14" fill="url(#cardBg)"/>
+  <rect x="1" y="1" width="848" height="438" rx="14" stroke="url(#aboutBorder)" stroke-width="1.6"/>
 
-  <!-- Window Header Bar -->
+  <!-- Window Header -->
   <rect x="1" y="1" width="848" height="40" rx="14" fill="#0d1813"/>
   <rect x="1" y="28" width="848" height="13" fill="#0d1813"/>
   <line x1="1" y1="41" x2="849" y2="41" stroke="#1b3826" stroke-width="1"/>
 
-  <!-- Window Controls -->
   <circle cx="28" cy="21" r="6" fill="#ef4444"/>
   <circle cx="48" cy="21" r="6" fill="#eab308"/>
   <circle cx="68" cy="21" r="6" fill="#22c55e"/>
 
-  <text x="425" y="26" fill="#86efac" font-size="12" font-weight="600" text-anchor="middle" class="font-mono">bash - kaviyarasan@ubuntu-vps: ~/production/system.json</text>
+  <text x="425" y="26" fill="#86efac" font-size="12" font-weight="600" text-anchor="middle" class="font-mono">kaviyarasan@infrastructure: ~/cloud_stack.json</text>
 
-  <!-- Terminal Content -->
-  <g transform="translate(35, 70)" class="font-mono" font-size="12.5">
-    <!-- Command Execution -->
+  <!-- JSON Content -->
+  <g transform="translate(30, 68)" class="font-mono" font-size="12">
     <text x="0" y="0">
       <tspan fill="#ef4444">➜ </tspan>
-      <tspan fill="#22c55e">~/production</tspan>
-      <tspan fill="#94a3b8"> cat system_architecture.json</tspan>
+      <tspan fill="#22c55e">~/cloud</tspan>
+      <tspan fill="#94a3b8"> cat fullstack_ai_ecosystem.json</tspan>
     </text>
 
-    <!-- JSON Output -->
-    <text x="0" y="26"><tspan class="pun">{</tspan></text>
+    <text x="0" y="22"><tspan class="pun">{</tspan></text>
     
-    <text x="20" y="48">
+    <text x="20" y="42">
       <tspan class="key">"engineer"</tspan><tspan class="pun">: </tspan><tspan class="str">"Kaviyarasan M"</tspan><tspan class="pun">, </tspan>
-    </text>
-
-    <text x="20" y="70">
-      <tspan class="key">"email"</tspan><tspan class="pun">: </tspan><tspan class="str">"mkaviyarasan003@gmail.com"</tspan><tspan class="pun">, </tspan>
-    </text>
-
-    <text x="20" y="92">
       <tspan class="key">"portfolio"</tspan><tspan class="pun">: </tspan><tspan class="str">"https://developerkavi.in"</tspan><tspan class="pun">, </tspan>
     </text>
 
-    <text x="20" y="114">
-      <tspan class="key">"infrastructure"</tspan><tspan class="pun">: {</tspan>
-    </text>
-    <text x="40" y="136">
-      <tspan class="key">"server"</tspan><tspan class="pun">: </tspan><tspan class="str">"Ubuntu VPS // Linux CLI Server Management"</tspan><tspan class="pun">, </tspan>
-    </text>
-    <text x="40" y="158">
-      <tspan class="key">"ci_cd"</tspan><tspan class="pun">: </tspan><tspan class="str">"Jenkins Pipelines &amp; Coolify Production Orchestration"</tspan><tspan class="pun">, </tspan>
-    </text>
-    <text x="40" y="180">
-      <tspan class="key">"containers"</tspan><tspan class="pun">: </tspan><tspan class="str">"Docker Containerized Builds &amp; Microservices"</tspan><tspan class="pun">, </tspan>
-    </text>
-    <text x="40" y="202">
-      <tspan class="key">"database_engine"</tspan><tspan class="pun">: </tspan><tspan class="str">"MySQL Live Connectivity &amp; Automated Schema Validation"</tspan>
-    </text>
-    <text x="20" y="224"><tspan class="pun">},</tspan></text>
-
-    <text x="20" y="246">
-      <tspan class="key">"application_stacks"</tspan><tspan class="pun">: [</tspan>
-      <tspan class="str">"Laravel (PHP)"</tspan><tspan class="pun">, </tspan>
-      <tspan class="str">"CodeIgniter"</tspan><tspan class="pun">, </tspan>
-      <tspan class="str">"React &amp; Modern JS"</tspan>
+    <text x="20" y="64">
+      <tspan class="key">"ai_and_python_llm"</tspan><tspan class="pun">: [</tspan>
+      <tspan class="str">"Python"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"LLM Prompt Engineering &amp; Agents"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"FastAPI"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"RAG Vector Embeddings"</tspan>
       <tspan class="pun">],</tspan>
     </text>
 
-    <text x="20" y="268">
-      <tspan class="key">"schema_verification"</tspan><tspan class="pun">: </tspan><tspan class="val">"Automated DB Table, Column, Data Type &amp; Compatibility Checks [PASSED]"</tspan><tspan class="pun">, </tspan>
+    <text x="20" y="86">
+      <tspan class="key">"frontend_and_fullstack"</tspan><tspan class="pun">: [</tspan>
+      <tspan class="str">"Next.js (App Router)"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"React"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"MERN &amp; MEAN Stacks"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"TypeScript"</tspan>
+      <tspan class="pun">],</tspan>
     </text>
 
-    <text x="20" y="290">
-      <tspan class="key">"status"</tspan><tspan class="pun">: </tspan><tspan class="val">"All Pipelines Operational &amp; Ready for Production Deployment"</tspan>
+    <text x="20" y="108">
+      <tspan class="key">"backend_engines"</tspan><tspan class="pun">: [</tspan>
+      <tspan class="str">"Laravel (PHP)"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"CodeIgniter"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"Node.js/Express"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"REST &amp; WebSockets"</tspan>
+      <tspan class="pun">],</tspan>
     </text>
 
-    <text x="0" y="312"><tspan class="pun">}</tspan></text>
+    <text x="20" y="130">
+      <tspan class="key">"databases_and_storage"</tspan><tspan class="pun">: {</tspan>
+    </text>
+    <text x="40" y="152">
+      <tspan class="key">"relational"</tspan><tspan class="pun">: </tspan><tspan class="str">"PostgreSQL &amp; MySQL (Schema Verification)"</tspan><tspan class="pun">, </tspan>
+    </text>
+    <text x="40" y="174">
+      <tspan class="key">"nosql_and_cloud"</tspan><tspan class="pun">: </tspan><tspan class="str">"MongoDB &amp; AWS S3 Object Storage"</tspan>
+    </text>
+    <text x="20" y="196"><tspan class="pun">},</tspan></text>
+
+    <text x="20" y="218">
+      <tspan class="key">"devops_and_cloud_infra"</tspan><tspan class="pun">: {</tspan>
+    </text>
+    <text x="40" y="240">
+      <tspan class="key">"container_orchestration"</tspan><tspan class="pun">: </tspan><tspan class="str">"Kubernetes (K8s) &amp; Docker Compose"</tspan><tspan class="pun">, </tspan>
+    </text>
+    <text x="40" y="262">
+      <tspan class="key">"ci_cd_and_deployment"</tspan><tspan class="pun">: </tspan><tspan class="str">"Jenkins, Coolify, Ubuntu VPS &amp; Linux CLI"</tspan><tspan class="pun">, </tspan>
+    </text>
+    <text x="40" y="284">
+      <tspan class="key">"web_servers_and_edge"</tspan><tspan class="pun">: </tspan><tspan class="str">"Nginx Reverse Proxy, Cloudflare CDN/WAF, XAMPP/WAMP"</tspan>
+    </text>
+    <text x="20" y="306"><tspan class="pun">},</tspan></text>
+
+    <text x="20" y="328">
+      <tspan class="key">"deployment_status"</tspan><tspan class="pun">: </tspan><tspan class="val">"ALL ARCHITECTURES ACTIVE &amp; PRODUCTION VERIFIED [100%]"</tspan>
+    </text>
+
+    <text x="0" y="348"><tspan class="pun">}</tspan></text>
   </g>
 </svg>

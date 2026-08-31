@@ -1,4 +1,144 @@
-<svg width="850" height="760" viewBox="0 0 850 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+import os
+
+assets_dir = r"C:\Users\ADMIN\OneDrive\Documents\readmekavi\assets"
+os.makedirs(assets_dir, exist_ok=True)
+
+# 1. typing.svg - Dynamic Next.js, AI Python LLM, Kubernetes, AWS S3 & Nginx Bash
+typing_svg = """<svg width="850" height="60" viewBox="0 0 850 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .font-mono { font-family: 'Fira Code', 'Cascadia Code', Consolas, Monaco, monospace; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    .cursor { animation: blink 0.8s infinite; fill: #ef4444; }
+  </style>
+
+  <rect x="1" y="1" width="848" height="58" rx="12" fill="#080e0b" stroke="#166534" stroke-width="1.2"/>
+
+  <g transform="translate(20, 35)">
+    <text x="0" y="0" fill="#22c55e" font-size="13" font-weight="700" class="font-mono">kaviyarasan@cloud:~$</text>
+    <text x="170" y="0" fill="#f8fafc" font-size="12.5" font-weight="500" class="font-mono">
+      <tspan fill="#38bdf8">next build</tspan> &amp;&amp; <tspan fill="#fca5a5">python agent_llm.py</tspan> &amp;&amp; <tspan fill="#4ade80">kubectl</tspan> apply -f k8s/ &amp;&amp; <tspan fill="#f87171">nginx</tspan> -s reload
+    </text>
+    <rect x="795" y="-12" width="8" height="15" class="cursor"/>
+  </g>
+</svg>"""
+
+# 2. about.svg - Comprehensive Fullstack, AI LLM, Kubernetes & Cloud JSON
+about_svg = """<svg width="850" height="440" viewBox="0 0 850 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="850" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070c09"/>
+      <stop offset="100%" stop-color="#0e1712"/>
+    </linearGradient>
+    <linearGradient id="aboutBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e">
+        <animate attributeName="stop-color" values="#22c55e;#ef4444;#22c55e" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ef4444">
+        <animate attributeName="stop-color" values="#ef4444;#22c55e;#ef4444" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Fira Code', 'Cascadia Code', Consolas, Monaco, monospace; }
+    .key { fill: #f87171; font-weight: 600; }
+    .val { fill: #4ade80; }
+    .str { fill: #86efac; }
+    .pun { fill: #94a3b8; }
+  </style>
+
+  <!-- Terminal Frame -->
+  <rect x="1" y="1" width="848" height="438" rx="14" fill="url(#cardBg)"/>
+  <rect x="1" y="1" width="848" height="438" rx="14" stroke="url(#aboutBorder)" stroke-width="1.6"/>
+
+  <!-- Window Header -->
+  <rect x="1" y="1" width="848" height="40" rx="14" fill="#0d1813"/>
+  <rect x="1" y="28" width="848" height="13" fill="#0d1813"/>
+  <line x1="1" y1="41" x2="849" y2="41" stroke="#1b3826" stroke-width="1"/>
+
+  <circle cx="28" cy="21" r="6" fill="#ef4444"/>
+  <circle cx="48" cy="21" r="6" fill="#eab308"/>
+  <circle cx="68" cy="21" r="6" fill="#22c55e"/>
+
+  <text x="425" y="26" fill="#86efac" font-size="12" font-weight="600" text-anchor="middle" class="font-mono">kaviyarasan@infrastructure: ~/cloud_stack.json</text>
+
+  <!-- JSON Content -->
+  <g transform="translate(30, 68)" class="font-mono" font-size="12">
+    <text x="0" y="0">
+      <tspan fill="#ef4444">➜ </tspan>
+      <tspan fill="#22c55e">~/cloud</tspan>
+      <tspan fill="#94a3b8"> cat fullstack_ai_ecosystem.json</tspan>
+    </text>
+
+    <text x="0" y="22"><tspan class="pun">{</tspan></text>
+    
+    <text x="20" y="42">
+      <tspan class="key">"engineer"</tspan><tspan class="pun">: </tspan><tspan class="str">"Kaviyarasan M"</tspan><tspan class="pun">, </tspan>
+      <tspan class="key">"portfolio"</tspan><tspan class="pun">: </tspan><tspan class="str">"https://developerkavi.in"</tspan><tspan class="pun">, </tspan>
+    </text>
+
+    <text x="20" y="64">
+      <tspan class="key">"ai_and_python_llm"</tspan><tspan class="pun">: [</tspan>
+      <tspan class="str">"Python"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"LLM Prompt Engineering &amp; Agents"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"FastAPI"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"RAG Vector Embeddings"</tspan>
+      <tspan class="pun">],</tspan>
+    </text>
+
+    <text x="20" y="86">
+      <tspan class="key">"frontend_and_fullstack"</tspan><tspan class="pun">: [</tspan>
+      <tspan class="str">"Next.js (App Router)"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"React"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"MERN &amp; MEAN Stacks"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"TypeScript"</tspan>
+      <tspan class="pun">],</tspan>
+    </text>
+
+    <text x="20" y="108">
+      <tspan class="key">"backend_engines"</tspan><tspan class="pun">: [</tspan>
+      <tspan class="str">"Laravel (PHP)"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"CodeIgniter"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"Node.js/Express"</tspan><tspan class="pun">, </tspan>
+      <tspan class="str">"REST &amp; WebSockets"</tspan>
+      <tspan class="pun">],</tspan>
+    </text>
+
+    <text x="20" y="130">
+      <tspan class="key">"databases_and_storage"</tspan><tspan class="pun">: {</tspan>
+    </text>
+    <text x="40" y="152">
+      <tspan class="key">"relational"</tspan><tspan class="pun">: </tspan><tspan class="str">"PostgreSQL &amp; MySQL (Schema Verification)"</tspan><tspan class="pun">, </tspan>
+    </text>
+    <text x="40" y="174">
+      <tspan class="key">"nosql_and_cloud"</tspan><tspan class="pun">: </tspan><tspan class="str">"MongoDB &amp; AWS S3 Object Storage"</tspan>
+    </text>
+    <text x="20" y="196"><tspan class="pun">},</tspan></text>
+
+    <text x="20" y="218">
+      <tspan class="key">"devops_and_cloud_infra"</tspan><tspan class="pun">: {</tspan>
+    </text>
+    <text x="40" y="240">
+      <tspan class="key">"container_orchestration"</tspan><tspan class="pun">: </tspan><tspan class="str">"Kubernetes (K8s) &amp; Docker Compose"</tspan><tspan class="pun">, </tspan>
+    </text>
+    <text x="40" y="262">
+      <tspan class="key">"ci_cd_and_deployment"</tspan><tspan class="pun">: </tspan><tspan class="str">"Jenkins, Coolify, Ubuntu VPS &amp; Linux CLI"</tspan><tspan class="pun">, </tspan>
+    </text>
+    <text x="40" y="284">
+      <tspan class="key">"web_servers_and_edge"</tspan><tspan class="pun">: </tspan><tspan class="str">"Nginx Reverse Proxy, Cloudflare CDN/WAF, XAMPP/WAMP"</tspan>
+    </text>
+    <text x="20" y="306"><tspan class="pun">},</tspan></text>
+
+    <text x="20" y="328">
+      <tspan class="key">"deployment_status"</tspan><tspan class="pun">: </tspan><tspan class="val">"ALL ARCHITECTURES ACTIVE &amp; PRODUCTION VERIFIED [100%]"</tspan>
+    </text>
+
+    <text x="0" y="348"><tspan class="pun">}</tspan></text>
+  </g>
+</svg>"""
+
+# 3. skills.svg - Comprehensive Mega Matrix of all 18+ Tools with Vector Logos & Categories
+skills_svg = """<svg width="850" height="760" viewBox="0 0 850 760" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="skillsBg" x1="0" y1="0" x2="850" y2="760" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#060c09"/>
@@ -189,4 +329,18 @@
       <text x="14" y="122" fill="#22c55e" font-size="10" font-weight="700" class="font-mono">● Verified</text>
     </g>
   </g>
-</svg>
+</svg>"""
+
+cards = {
+    "typing.svg": typing_svg,
+    "about.svg": about_svg,
+    "skills.svg": skills_svg,
+}
+
+for fname, content in cards.items():
+    fpath = os.path.join(assets_dir, fname)
+    with open(fpath, "w", encoding="utf-8") as f:
+        f.write(content.strip())
+    print(f"Generated {fname}")
+
+print("All enhanced tech stack SVGs successfully written!")
