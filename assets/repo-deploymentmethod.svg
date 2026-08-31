@@ -1,9 +1,17 @@
-<svg width="415" height="130" viewBox="0 0 415 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="415" height="135" viewBox="0 0 415 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="depBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e">
+        <animate attributeName="stop-color" values="#22c55e;#10b981;#22c55e" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+  </defs>
   <style>
     .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-    .font-mono { font-family: 'Fira Code', monospace; }
+    .font-mono { font-family: 'Fira Code', Consolas, monospace; }
   </style>
-  <rect width="415" height="130" rx="12" fill="#060c09" stroke="#22c55e" stroke-width="1.2"/>
+  <rect width="415" height="135" rx="12" fill="#060c09" stroke="url(#depBorder)" stroke-width="1.4"/>
   
   <g transform="translate(20, 28)">
     <text x="0" y="0" font-size="14">📦</text>
@@ -12,13 +20,16 @@
     <text x="342" y="0" fill="#86efac" font-size="10" font-weight="600" text-anchor="middle" class="font-mono">Public</text>
   </g>
 
-  <text x="20" y="60" fill="#94a3b8" font-size="12" class="font-sans">Automated production deployment, Docker scripts &amp; VPS infrastructure setup.</text>
+  <text x="20" y="58" fill="#94a3b8" font-size="11.5" class="font-sans">
+    <tspan x="20" dy="0">Automated production deployment, Docker scripts &amp;</tspan>
+    <tspan x="20" dy="16">VPS infrastructure configuration.</tspan>
+  </text>
 
-  <g transform="translate(20, 100)">
+  <g transform="translate(20, 108)">
     <circle cx="5" cy="5" r="4" fill="#22c55e"/>
     <text x="16" y="9" fill="#86efac" font-size="11" class="font-mono">Docker / Shell</text>
 
-    <text x="140" y="9" fill="#f8fafc" font-size="11" class="font-mono">★ 1</text>
-    <text x="190" y="9" fill="#f8fafc" font-size="11" class="font-mono">⌥ 0</text>
+    <text x="170" y="9" fill="#f8fafc" font-size="11" class="font-mono">★ 1</text>
+    <text x="230" y="9" fill="#f8fafc" font-size="11" class="font-mono">⌥ 0</text>
   </g>
 </svg>
